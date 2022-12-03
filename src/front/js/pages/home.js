@@ -98,8 +98,8 @@ export const Home = () => {
 					</div>
 				):null}
 				
-					<button onclick={handeClick}>Logeate</button>
-					<button onClick={(e) => action.logout}>Logout</button>
+					<button onClick={handeClick}>Logeate</button>
+					<button onClick={(e) => actions.logout}>Logout</button>
 			
 		</div>
 	);
